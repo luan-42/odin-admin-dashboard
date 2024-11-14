@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 100dvh;
+    display: grid;
+    grid-template: auto 1fr / max(300px, 20%) 1fr;
+    box-sizing: border-box;
+}
+
+header {
+    grid-column: 2;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+aside {
+    grid-row: 1 / span 2;
+    background-color: #1992d4;
+    color: #ffffff;
+}
+
+main {
+    grid-row: 2;
+    background-color: #e2e8f0;
+}
