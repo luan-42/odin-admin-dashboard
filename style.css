@@ -98,12 +98,13 @@ img[src$='svg'] {
 }
 
 button {
-    padding: 10px 24px;
+    padding: 8px 24px;
     background-color: var(--sky-blue);
     color: white;
     border-radius: 32px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 header .user-info > img.profile-image {
